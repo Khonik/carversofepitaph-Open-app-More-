@@ -6,14 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '.hi') {
-    	message.reply,message('হ্যাঁ ভাইয়া কেমন আছেন? কি অবস্থা ? বিচি খারায়?');
+    if (message.content === 'ping') {
+    	message.channel.send('PONG!');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === '.hello') {
-    	message.reply('oi beta tor somossa ki ato hi hlw chodau ka.valo hou teka lage na.sara din to mia afar loge thako.');
+    if (message.content === 'bing') {
+    	message.reply('BONG!');
   	}
 });
 
