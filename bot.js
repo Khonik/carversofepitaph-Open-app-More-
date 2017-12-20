@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('PONG!');
+    if (message.content === 'ez') {
+    	message.channel.send('Fuk U MASUM VAI @everyone');
   	}
 });
 
