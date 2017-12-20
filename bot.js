@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '.hi') {
-    	message.reply('হ্যাঁ ভাইয়া কেমন আছেন? কি অবস্থা ? বিচি খারায়?');
+    	message.reply,message('হ্যাঁ ভাইয়া কেমন আছেন? কি অবস্থা ? বিচি খারায়?');
   	}
 });
 
