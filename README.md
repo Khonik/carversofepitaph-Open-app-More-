@@ -1,2 +1,2 @@
-# carversofepitaph-Open-app-More-
-carversofepitaph Open app More 
+# BrothersForLife
+A Discord bot coded in Discord.JS, hosted using Heroku.
